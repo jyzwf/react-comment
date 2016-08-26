@@ -1,0 +1,37 @@
+html,body{
+	margin:0;
+	-webkit-tap-highlight-color: transparent;
+  font-family: "Microsoft YaHei";
+  -webkit-font-smoothing: antialiased;
+  box-sizing:border-box;
+}
+
+h1{
+	color: #03A9F4;
+}
+
+.comment{
+	padding: 10px;
+    border-bottom: 1px solid #999;
+    h2{
+    	margin:8px 0;
+    }
+}
+
+.commentForm{
+	margin:10px;
+
+	input[type=text]{
+		margin-right: 4px;
+    	font-size: 20px;
+	}
+
+	input[type=submit]{
+		font-size: 20px;
+    	background: #03A9F4;
+    	border: none;
+    	padding: 4px 6px;
+    	border-radius: 4px;
+    	color: #fff;
+	}
+}
